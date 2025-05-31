@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?car,luxury') center/cover no-repeat;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .section-title {
+      margin: 50px 0 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4">Welcome to Our Car Agency</h1>
+      <p class="lead">Find your dream car with us today!</p>
+      <a href="#cars" class="btn btn-primary btn-lg">Explore Cars</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2 class="section-title">About Us</h2>
+    <p>We are a premium car agency offering the best selection of luxury and affordable cars. With years of experience and a passion for excellence, we help you drive home the perfect vehicle.</p>
+  </section>
+
+  <!-- Cars Section -->
+  <section id="cars" class="container">
+    <h2 class="section-title">Our Cars</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?mercedes" class="card-img-top" alt="Mercedes">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes Benz</h5>
+            <p class="card-text">Luxury and performance combined in one elegant ride.</p>
+            <a href="#" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?bmw" class="card-img-top" alt="BMW">
+          <div class="card-body">
+            <h5 class="card-title">BMW X5</h5>
+            <p class="card-text">Experience dynamic driving and superior comfort.</p>
+            <a href="#" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x300/?audi" class="card-img-top" alt="Audi">
+          <div class="card-body">
+            <h5 class="card-title">Audi Q7</h5>
+            <p class="card-text">Bold design and advanced technology for the road ahead.</p>
+            <a href="#" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title">What Our Clients Say</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <blockquote class="blockquote">
+            <p>"Amazing service! They helped me find the perfect car at a great price."</p>
+            <footer class="blockquote-footer">Ahmed from Cairo</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-6">
+          <blockquote class="blockquote">
+            <p>"Professional, reliable, and friendly team. Highly recommend!"</p>
+            <footer class="blockquote-footer">Sara from Riyadh</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container py-5">
+    <h2 class="section-title">Contact Us</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-4 bg-dark text-light">
+    &copy; 2025 Car Agency. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
